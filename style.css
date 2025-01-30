@@ -1,5 +1,7 @@
 body {
     font-family: "Poppins", serif;
+    padding: 0;
+    margin: 0;
 }
 .Header-section {
 background-image: url(images/top-banner.png);
@@ -61,13 +63,14 @@ font-size: 3em;
     box-shadow: 15px 15px 30px lightgray;
     padding: 5px;
     background-color: white;
+    padding: 2%;
 }
 .item h4 {
     color: #FFA500
 }
 /* footer Section */
 .footer-Section {
-    padding: 50px 0 30px 0;
+    padding: 70px 0 20px 0;
 }
 .footer-Section {
     text-align: center;

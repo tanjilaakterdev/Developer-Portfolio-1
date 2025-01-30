@@ -44,10 +44,10 @@ font-size: 3em;
 .Experiance-section {
     background-image: url(images/exp-bg.png);
     background-repeat: no-repeat;
-    background-position: left center;
+    background-position: center left;
 }
 #Full-Stack {
-    border-left: 5px solid;
+    border-left: 4px solid;
     border-image: linear-gradient(rgba(255, 255, 0, 0.543),Black);
     border-image-slice: 1;
 }
@@ -73,6 +73,6 @@ font-size: 3em;
     padding: 70px 0 20px 0;
 }
 .footer-Section {
-    text-align: top;
+    text-align: center;
 }
 

@@ -21,7 +21,8 @@ width: 100%;
 font-size: 3em;
 }
 .left-content span {
-    color: #FFA500
+    color: #FFA500;
+    text-shadow:10px 10px 15px;
 }
 .left-content a {
     background-image: linear-gradient(orange,tomato );
@@ -30,6 +31,14 @@ font-size: 3em;
     font-size: 1.2em;
     padding: 5px 30px;
     border-radius: 5px;
+    Transition:1s;
+    transition-duration:1s;
+}
+.left-content a:hover {
+    transition-timing-function:ease-in-out;
+    transition-duration:1s;
+    transform: scale(1.5);
+    box-shadow: 10px 10px 15px #da9329;
 }
 /*Dream section CSS*/
 .Drem-section {

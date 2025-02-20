@@ -1,5 +1,5 @@
 @media (max-width: 480px) {
-   .header-section {
+   .Header-section {
      display: flex;
      flex-direction: column-reverse;
      align-items: center;

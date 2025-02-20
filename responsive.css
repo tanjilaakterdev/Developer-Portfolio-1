@@ -25,4 +25,20 @@
      padding: 0 10%;
      text-align: justify;
    }
+   .Drem-section {
+    display: flex;
+    flex-direction: column-reverse;
+    align-items: center;
+    justify-content: center;
+    }
+    .right-content{
+      text-align: center;
+    }
+    .right-content h1{
+      margin: 0px;
+    }
+    .right-content p {
+      padding: 0 10%;
+      text-align: justify;
+    }
  }

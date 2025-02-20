@@ -13,6 +13,13 @@ background-repeat: no-repeat;
 }
 .right-content img {
 width: 100%;
+Transition:1s;
+transition-duration:1s;
+}
+.right-content img:hover{
+    transform:scale(1.1); 
+    transition-timing-function:ease-in-out;
+    transition-duration:1s;
 }
 .flexiable-container {
     display: flex;

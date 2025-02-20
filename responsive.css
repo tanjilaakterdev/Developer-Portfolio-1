@@ -1,5 +1,28 @@
 @media (max-width: 480px) {
-   body {
-    display: none;
+   .header-section {
+     display: flex;
+     flex-direction: column-reverse;
+     align-items: center;
+     justify-content: center;
    }
-}
+   .half-width {
+     width: 100%;
+     padding: 0 0;
+   }
+   .right-content {
+     text-align: center;
+   }
+   .right-content img {
+     width: 80%;
+   }
+   .left-content {
+     text-align: center;
+   }
+   .left-content h1 {
+     margin: 0px;
+   }
+   .left-content p {
+     padding: 0 10%;
+     text-align: justify;
+   }
+ }
